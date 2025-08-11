@@ -1,0 +1,36 @@
+<button class="stretch">
+  Stretch
+</button>
+
+<button class="shadow">
+  Shadow
+</button>
+
+<style>
+  button {
+      font: bold 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #017501;
+      color: white;
+      padding: 6px 10px;
+      border: none;
+      cursor: pointer;
+  }
+
+  .stretch {
+      transition: padding 1s;
+  }
+
+  .stretch:hover {
+      padding: 14px 26px;
+  }
+
+  .shadow {
+      box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.4);
+  }
+
+  .shadow:active {
+      margin: 2px 2px;
+      box-shadow: none;
+  }
+
+</style>
