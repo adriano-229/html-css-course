@@ -25,37 +25,38 @@
         font: 17px "Lucida", Verdana, Geneva, sans-serif;
         border: none;
         cursor: pointer;
+        transition: opacity 0.1s;
+    }
+
+    .uber:hover {
+        opacity: 0.8;
     }
 
     .amazon {
-        background-color: #F9D84C;
+        background-color: rgba(254, 224, 88, 0.95);
         color: black;
         font: 16px "Lucida", Verdana, Geneva, sans-serif;
         height: 40px;
         width: 200px;
         border: none;
         cursor: pointer;
-        border-radius: 75px
+        border-radius: 75px;
+        transition: background-color 0.1s, box-shadow 0.1s;
     }
 
     .amazon:hover {
-        opacity: 0.6;
-    }
-
-    .amazon:active {
-        opacity: 0.3;
+        background-color: #fedd4a;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .linkedin {
         margin: 10px;
-        padding: 25px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 25px;
         cursor: pointer;
         border-radius: 75px;
-        border: 1.5px solid;
-        border-color: #2C64BB;
+        border: 2px solid #2C64BB;
         font: bold 16px "Lucida", Verdana, Geneva, sans-serif;
+        transition: background-color 0.1s, border-width 0.1s;
     }
 
     .apply {
@@ -63,9 +64,17 @@
         background-color: #2C64BB;
     }
 
+    .apply:hover {
+        background-color: #1a3c63;
+    }
+
     .save {
         color: #2C64BB;
         background-color: white;
+    }
 
+    .save:hover {
+        background-color: #e6f0ff;
+        border-width: 2px;
     }
 </style>
