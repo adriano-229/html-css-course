@@ -1,0 +1,16 @@
+p {
+    font-family: Montserrat, serif;
+    text-align: center;
+    margin: 8px;
+
+}
+
+.title {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.feature {
+    text-decoration: underline;
+}
+

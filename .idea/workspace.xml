@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f518720e-b2e3-4704-8124-ef02a6bcae45" name="Changes" comment="part 3 done">
-      <change afterPath="$PROJECT_DIR$/4/4fg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/4h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/4ij.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/4k.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="f518720e-b2e3-4704-8124-ef02a6bcae45" name="Changes" comment="part 4 done">
+      <change afterPath="$PROJECT_DIR$/5/5e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5/5f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5/5g.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/5g.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/6_4fg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/6_5e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/6_5g.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/6d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/6d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/styles/4fg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/styles/nested_styles/5e.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/3/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/4fg.html" beforeDir="false" afterPath="$PROJECT_DIR$/4/4fg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/4ij.html" beforeDir="false" afterPath="$PROJECT_DIR$/4/4ij.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/4k.html" beforeDir="false" afterPath="$PROJECT_DIR$/4/4k.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,35 +64,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.2f.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/adriano/repos/html-css-course/3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31494254&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.2f.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/adriano/repos/html-css-course/6",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31494254",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/6" />
       <recent name="$PROJECT_DIR$/3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/6" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.idea/1" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -108,7 +130,13 @@
       <workItem from="1754875975893" duration="23000" />
       <workItem from="1754876000487" duration="2990000" />
       <workItem from="1754919882787" duration="2268000" />
-      <workItem from="1754922695508" duration="1613000" />
+      <workItem from="1754922695508" duration="1838000" />
+      <workItem from="1754928415822" duration="6000" />
+      <workItem from="1754930237345" duration="831000" />
+      <workItem from="1755019095647" duration="3386000" />
+      <workItem from="1755300802266" duration="18000" />
+      <workItem from="1755300838137" duration="29000" />
+      <workItem from="1755640470390" duration="4498000" />
     </task>
     <task id="LOCAL-00001" summary="part 3 done">
       <option name="closed" value="true" />
@@ -118,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754879163199</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="part 4 done">
+      <option name="closed" value="true" />
+      <created>1754924529709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754924529709</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +162,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="part 3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 3 done" />
+    <MESSAGE value="part 4 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 4 done" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
